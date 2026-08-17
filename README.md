@@ -141,6 +141,3 @@ $$\text{MACD Histogram} = \text{MACD Line} - \text{Signal Line}$$
 
 ---
 
-
-├── .gitignore                   # Version control ignore list
-└── README.md                    # Detailed documentation[cite: 2]
