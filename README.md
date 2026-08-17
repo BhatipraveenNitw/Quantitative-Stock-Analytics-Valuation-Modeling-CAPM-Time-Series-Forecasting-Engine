@@ -141,22 +141,6 @@ $$\text{MACD Histogram} = \text{MACD Line} - \text{Signal Line}$$
 
 ---
 
-## 📁 Repository Structure
 
-```text
-Stock-Analysis-Forecasting/
-│
-├── Trading_App.py               # Main multi-page entry point and dashboard overview[cite: 2]
-├── capm_functions.py            # Mathematical routines: normalization, returns, beta polyfit[cite: 2]
-├── model_train.py               # Time-series routines: ADF stationarity, ARIMA modeling[cite: 2]
-├── plotly_figure.py             # Plotly routines: interactive tables, candlestick, RSI, MACD[cite: 2]
-│
-├── pages/
-│   ├── 1_Stock_Analysis.py      # Technical indicator dashboard & corporate fundamentals[cite: 2]
-│   ├── 2_Stock_Prediction.py    # 30-day forward ARIMA price projections[cite: 2]
-│   ├── 3_CAPM_Return.py         # Multi-stock portfolio CAPM return analysis[cite: 2]
-│   └── 4_CAPM_Beta.py           # OLS Beta and Alpha regression against S&P 500[cite: 2]
-│
-├── requirements.txt             # Project library dependencies
 ├── .gitignore                   # Version control ignore list
 └── README.md                    # Detailed documentation[cite: 2]
